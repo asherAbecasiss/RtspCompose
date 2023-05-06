@@ -1,0 +1,32 @@
+version: '3.1'
+services:
+
+  post-rtsp:
+    image: post-rtsp
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: '2G'
+    volumes:
+      - /feeds:/feeds
+    ports:
+      - 10.1.1.1:8080:8080
+
+  ubuntu:
+    container_name: ubuntu
+    image: ubuntu
+    tty: true
+    deploy:
+      resources:
+        limits:
+          cpus: '3.0'
+          memory: '2G'
+    volumes:
+      - /home/xxxxxx/GolandProjects/RtspCompose:/home
+      - /feeds:/feeds
+    entrypoint: sh -c "/home/init.sh"
+    ports:
+      - 10.1.1.1:8081:8081
+    restart: on-failure

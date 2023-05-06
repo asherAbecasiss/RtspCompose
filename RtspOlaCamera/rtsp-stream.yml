@@ -1,0 +1,98 @@
+version: 1.0
+endpoints:
+  start:
+    enabled: true
+  static:
+    enabled: true
+  stop:
+    enabled: true
+    secret: macilaci
+  list:
+    enabled: true
+    secret: macilaci
+
+listen:
+  - alias: camera1
+    uri: "rtsp://admin:123456@10.100.102.50:554/profile1"
+    macAddress: "80647AFFF2A1"
+    enabled: false
+  - alias: camera2
+    macAddress: "80647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera3
+    macAddress: "30647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera4
+    macAddress: "45647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera5
+    macAddress: "50647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera6
+    macAddress: "60647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera7
+    macAddress: "70647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera8
+    macAddress: "89647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera9
+    macAddress: "90647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera10
+    macAddress: "10647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera11
+    macAddress: "11647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera12
+    macAddress: "12647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera13
+    macAddress: "13647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera14
+    macAddress: "14647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera15
+    macAddress: "15647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+
+  - alias: camera16
+    macAddress: "16647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera17
+    macAddress: "17647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+
+  - alias: camera18
+    macAddress: "18647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera19
+    macAddress: "19647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+  - alias: camera20
+    macAddress: "20647AFFF299"
+    uri: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+    enabled: false
+
+
